@@ -1,0 +1,16 @@
+{
+  "path": "legacy/03_register",
+  "status": "PASS",
+  "execution": "fresh temporary directory; standalone CLI simulation",
+  "simulation_log": "VCD info: dumpfile wave.vcd opened for output.\nLAB2_PASS register_pair checks=7\nC:\\Users\\UOS\\AppData\\Local\\Temp\\lab2-independent-agiauy_p\\03_register\\sim\\tb_register_pair.sv:19: $finish called at 66000 (1ps)\n",
+  "input_sha256": {
+    "simulation.json": "3bbd3e5da74260f1ba1b5da6da5bc80097515c5f11eb23d86e1210d69de35279",
+    "src/register_pair.v": "546bd1f1a2b519d0d0077bd56bbc364a97ce31782e761a250affd14964aecec7",
+    "src/input_frontend.v": "a866edb1f9b3477914c19a8c6bf237d885348348dd18582dca14e410d622a337",
+    "src/lab2_register.v": "4638c821526b32593230b9f42bfb55f1152730301ee4327a039bc8e1326a8f7b",
+    "sim/tb_register_pair.sv": "623b0d84bab55735ed5dded6061b3cd60ccee27c4bd66c049969e1245f963b7b",
+    "sim/tb_board.sv": "0fb13d114f4f96c18583c7e3cb307aec279af022add369ac202a81f019d14a26"
+  },
+  "workspace_sha256": "3a7edfc88a18740676c2161c169db45b234f26066952ed723bb6b12128e7770d",
+  "constraints_sha256": "c409037fe63f53243e0cf24aac389f3a2d3669f676ce7c1babe52059585af5a5"
+}

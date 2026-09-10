@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "file": "original/26top.v",
+      "source": "legacy/notebook/cpp/verilog/W6/Srcs/26top.v",
+      "sha256": "a6334616ec47eac9b267a19b6775c298fdc02592f14aa2a24d73852b3986498e"
+    },
+    {
+      "file": "original/26const.xdc",
+      "source": "legacy/notebook/cpp/verilog/W6/Srcs/26const.xdc",
+      "sha256": "715508efebd57b0e21d47ab8edde405103c3c1e4c6bdab0848e224c544dd5b51"
+    }
+  ],
+  "differences": "원본은 저장과 전달 버튼 각각을 클록으로 사용한다. 현재 회로는 단일 clk에서 load와 transfer를 사용하며, 둘이 동시에 1일 때 이전 저장값 전달을 검사한다.",
+  "execution_files": "src/, sim/, constraints/ are the corrected single-clock lesson; original/ is preserved for comparison"
+}
